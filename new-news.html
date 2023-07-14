@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New News</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>New News</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="saved-news.html">Saved News</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="category-select">
+      <label for="category">Select Category:</label>
+      <select id="category">
+        <option value="business">Business</option>
+        <option value="sports">Sports</option>
+        <option value="science">Science</option>
+        <option value="hatke">Hatke</option>
+        <option value="world">World</option>
+        <option value="politics">Politics</option>
+      </select>
+    </div>
+
+    <button id="search-button">Search</button>
+
+    <div id="news-container"></div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
